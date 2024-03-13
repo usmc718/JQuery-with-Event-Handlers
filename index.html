@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support Ticket Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="supportForm">
+        Request Date: <input type="text" id="ReqDate"><br>
+        Employee ID: <input type="text" id="EmpID"><br>
+        First Name: <input type="text" id="FName"><br>
+        Last Name: <input type="text" id="LName"><br>
+        Problem Description: <textarea id="ProbDesc"></textarea><br>
+        <input type="submit" id="btnSubmit" value="Submit">
+    </form>
+    <div id="errorMessage" style="display: none; color: red;"></div>
+    <div id="submissionTimestamp"></div>
+</body>
+</html>
